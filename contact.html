@@ -3,17 +3,41 @@
 <html>
     <head>
         <title>
-            Bio
+            Contact
         </title>
-        <link rel="stylesheet" type= "text/css" href= "">
+        <link rel="stylesheet" type= "text/css" href= "css/stylecontact.css">
     </head>
     <body>
+        <section id="head">
         <header>
-            <h1>Eric Nelson II</h1>
+            <h2>Eric Nelson II</h2>
         </header>
-        <button id= "About me"><A href="index.html">About</A></button>
-        <button id= "Portfolio"><a href="portfolio.html">Portfolio</a></button>
-        <button id= "Contact"><a href="contact.html">Contact </a></button>
-        <h2>Contact</h2>    
+        <button id="buttons">
+            <A href="index.html">About</A>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact </a>
+        </button>
+       </section>
+        <hr>
+        <section id="full">
+                <h2 class="Contact">Contact</h2>
+        </section>
+        <div class="container">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name..">
+                    <br>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="emal" placeholder="example@gmail.com">
+                    <br>
+                    <label for="subject">Message</label>
+                    <textarea id="message" name="message" style="height:200px"></textarea>
+                    <br>
+                    <input type="submit" value="Submit">
+                    
+            </form>
+        </div>
+        <footer>
+                Copyright
+            </footer>
     </body>
 </html>
