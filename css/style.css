@@ -2,9 +2,11 @@
     box-sizing: border-box;
     text-align: left;
 }
-body {
-    font-size: 24px;
-    line-height: 32px;
+.head {
+     padding: 20px;
+    clear: both;
+    background: grey;
+    text-align: center;
 }
 header {
     float: left;
@@ -37,8 +39,8 @@ button {
 #full {
     width: both;
     overflow: auto;
-    color: #fff;
-    background: #394549;
+    color: black;
+    background: white;
     border-style: ridge;
   }
 img {

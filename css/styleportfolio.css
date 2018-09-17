@@ -1,0 +1,94 @@
+/** Portfolio Page Style **/
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+header {
+    float: left;
+    border-style: none;
+    padding: 20px;
+    margin-left: 40px;
+    color: white;
+    width: none;
+    height: none;
+    background-color: teal;
+}
+button {
+    float: right;
+    color: white;
+    background: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#head {
+    width: both;
+    overflow: auto;
+    color: #fff;
+    background: #fff;
+}
+#content {
+    width: both;
+    color: #fff;
+    background: #fff;
+  
+  }
+#box1 {
+    float: left;
+    width: 33.3%;
+    height: 200px;
+    padding: 20px;
+    margin-left: 30px;
+    text-decoration-color: white;
+    background: black;
+    border: 1px solid #eee;
+}
+#box2 {
+    float: right;
+    width: 33.3%;
+    height: 200px;
+    padding: 20px;
+    margin-left: 30px;
+    text-decoration-color: white;
+    background: black;
+    border: 1px solid #eee;
+}
+#box3 {
+    float: left;
+    width: 33.3%;
+    height: 200px;
+    padding: 20px;
+    margin-left: 30px;
+    text-decoration-color: white;
+    background: black;
+    border: 1px solid #eee;
+}
+#box4 {
+    float: right;
+    width: 33.3%;
+    height: 200px;
+    padding: 20px;
+    margin-left: 30px;
+    text-decoration-color: white;
+    background: black;
+    border: 1px solid #eee;
+}
+#box5 {
+    float: center;
+    width: 33.3%;
+    height: 200px;
+    padding: 20px;
+    margin-left: 30px;
+    text-decoration-color: white;
+    background: black;
+    border: 1px solid #eee;
+}
+footer {
+    padding: 20px;
+    clear: both;
+    background: grey;
+    text-align: center;
+}
