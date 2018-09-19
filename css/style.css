@@ -1,53 +1,66 @@
 * {
     box-sizing: border-box;
-    text-align: left;
-}
-.head {
-     padding: 20px;
-    clear: both;
-    background: grey;
-    text-align: center;
-}
-header {
+    margin-top: 2px;
+    margin-bottom: 2px;
+} 
+  .topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
     float: left;
-    border-style: none;
-    padding: 20px;
-    margin-left: 40px;
-    color: white;
-    width: none;
-    height: none;
-    background-color: teal;
-}
-button {
-    float: right;
-    color: white;
-    background: White;
-    padding: 15px 32px;
+    color: teal;
     text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+    padding: 14px 16px;
     text-decoration: none;
-}
-#head {
-    width: both;
-    overflow: auto;
-    color: #fff;
-    background: #fff;
+    font-size: 24px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+  }
+  
+  .topnav a.active {
+    color: white;
+  }
+  
+  .topnav-right {
+    float: right;
+  }
+  home {
+      border-style: solid teal;
+      background: teal;
+      color: white;
+      font-size: 40px;
 }
 #full {
     width: both;
     overflow: auto;
-    color: black;
-    background: white;
-    border-style: ridge;
+    background: lightgray;
+    padding: 50px;
   }
-img {
-    display: inline;
+#content {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background: white;
+  border-radius: 4px;
 }
-p {
-    display: inline;
+#about-me {
+    color: teal;
+}
+img {
+ float: left;
+ padding: 10px;
+}
+#p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#place-holder {
+    padding: 10px;
+    background:teal;
+    text-align: center;
 }
 footer {
     padding: 20px;
