@@ -1,90 +1,67 @@
 /** Portfolio Page Style **/
 * {
     box-sizing: border-box;
-    text-align: center;
+    text-align: left;
 }
-header {
+.topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
     float: left;
-    border-style: none;
-    padding: 20px;
-    margin-left: 40px;
-    color: white;
-    width: none;
-    height: none;
-    background-color: teal;
-}
-button {
-    float: right;
-    color: white;
-    background: white;
-    padding: 15px 32px;
+    color: teal;
     text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-#head {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+  }
+  
+  .topnav a.active {
+    color: white;
+  }
+  
+  .topnav-right {
+    float: right;
+  }
+#full {
     width: both;
     overflow: auto;
-    color: #fff;
-    background: #fff;
-}
-#content {
-    width: both;
-    color: #fff;
-    background: #fff;
-  
+    background: lightgray;
+    padding: 50px;
   }
-#box1 {
-    float: left;
-    width: 33.3%;
-    height: 200px;
+#content {
+    width: 100%;
     padding: 20px;
-    margin-left: 30px;
-    text-decoration-color: white;
-    background: black;
-    border: 1px solid #eee;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 4px;
+}
+#portfolio {
+    color: teal;
+}
+img {
+    border-radius: 8px;
+    border-style: solid;
+}
+#box1 
 }
 #box2 {
-    float: right;
-    width: 33.3%;
-    height: 200px;
-    padding: 20px;
-    margin-left: 30px;
-    text-decoration-color: white;
-    background: black;
-    border: 1px solid #eee;
 }
 #box3 {
-    float: left;
-    width: 33.3%;
-    height: 200px;
-    padding: 20px;
-    margin-left: 30px;
-    text-decoration-color: white;
-    background: black;
-    border: 1px solid #eee;
 }
 #box4 {
-    float: right;
-    width: 33.3%;
-    height: 200px;
-    padding: 20px;
-    margin-left: 30px;
-    text-decoration-color: white;
-    background: black;
-    border: 1px solid #eee;
 }
 #box5 {
-    float: center;
-    width: 33.3%;
-    height: 200px;
-    padding: 20px;
-    margin-left: 30px;
-    text-decoration-color: white;
-    background: black;
-    border: 1px solid #eee;
+    
+}
+#place-holder {
+    padding: 10px;
+    background:teal;
+    text-align: center;
 }
 footer {
     padding: 20px;

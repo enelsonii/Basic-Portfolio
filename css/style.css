@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    margin-top: 2px;
-    margin-bottom: 2px;
 } 
   .topnav {
     overflow: hidden;
@@ -27,12 +25,6 @@
   .topnav-right {
     float: right;
   }
-  home {
-      border-style: solid teal;
-      background: teal;
-      color: white;
-      font-size: 40px;
-}
 #full {
     width: both;
     overflow: auto;
@@ -47,7 +39,7 @@
   background: white;
   border-radius: 4px;
 }
-#about-me {
+h2 {
     color: teal;
 }
 img {
@@ -67,4 +59,5 @@ footer {
     clear: both;
     background: grey;
     text-align: center;
+    
 }
